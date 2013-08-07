@@ -1,0 +1,297 @@
+	
+	
+	#holder {
+	height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 590px;
+	
+	}
+	
+	.facebookContain {
+	width:520px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:35px;
+	float:left;
+	border-top:1px solid #E6E6E6;
+	margin-left:10px;
+	}
+	
+	.facebookPhoto {
+	float:left;
+	margin-right:10px;
+	}
+	
+	.facebookMainContent {	
+	color: #333333;
+	direction: ltr;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	text-align: left;
+	float:left;
+	width:380px;
+	}
+	
+	.facebookMainContent a {
+	color: #3B5998;
+	cursor: pointer; 
+	text-decoration: none;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	}
+	
+	.facebookMainContent a:hover {
+	text-decoration:underline;
+	}
+	
+	.facebookName {
+	padding-bottom: 3px;
+	}
+	
+	.facebookName a {
+	font-weight: bold;
+	}
+	
+	.facebookComment {
+	line-height: 14px;
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	word-wrap: break-word;
+	margin-bottom:5px;
+	}
+	
+	.facebookControl {
+	color: #999999;
+	padding-bottom:2px;
+	}
+	
+	.facebookControl a {
+	color:#6D84B4;
+	}
+	
+	.facebookLikes {
+	background-color: #EDEFF4;
+	border-bottom: 1px solid #E5EAF1;
+	padding: 5px 5px 4px;
+	border-width: 1px 0 0;
+	margin-bottom: 2px;
+	/*border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;*/
+	}
+	
+	.facebookSubCommentContainer {
+    	background-color: #EDEFF4;
+   	border-bottom: 1px solid #E5EAF1;
+    	margin-bottom: 2px;
+    	padding: 5px 5px 2px;
+	}
+	
+	.facebookSubCommentPhoto {
+	float:left;
+	margin-right:8px;
+	height:32px;
+	width:32px;
+	}
+	
+	.facebookSubCommentPhoto img {
+	height:32px;
+	width:32px;
+	}
+	
+	.facebookSubComment {
+	color: #333333;
+	float: right;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 14px;
+	margin-bottom: 2px;
+	margin-right: 30px;
+	text-align: left;
+	width: 300px;
+	word-wrap: break-word;
+	}
+	
+	.facebookInputComment {
+	background-color: #EDEFF4;
+	border-bottom: 0 solid #E5EAF1;
+	margin-bottom: 2px;
+	padding: 5px 5px 4px;	
+	}
+	
+	.facebookInputCommentContainer {
+	padding:3px;
+	border-color: #BDC7D8;
+	border-style: solid;
+	border-width: 1px 1px;
+	cursor: default;
+	position: relative;
+	list-style-type: none;
+	background-color:#FFF;
+	height: 14px;
+	}
+	
+	.facebookSubCommentControl {
+	color: #999999;
+	margin-left: 40px;
+	}
+	
+	.facebookSubComment a {
+		font-weight: bold;
+	}
+	
+	.body img {
+	float: left;
+	margin: 0px 0px;
+	padding: 0;
+	}
+	.inputComment {
+	width:364px;
+	height:14px;
+	line-height:13px;
+	padding:0px;
+	border: 0px;
+	color: #777777;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	}
+	.facebookArrow {
+	background-image: url("http://static.ak.fbcdn.net/rsrc.php/v1/z7/r/UvyvLtJTQzO.png");
+	background-repeat: no-repeat;
+	display: block;
+	height: 5px;
+	margin-left: 15px;
+	width: 9px;
+	}
+	
+	.facebookSmallLike {
+	background-position: -72px -91px;
+	height: 13px;
+	width: 15px;
+	background-image: url("http://static.ak.fbcdn.net/rsrc.php/v1/zb/r/uxjPUN3OLVy.png");
+	background-repeat: no-repeat;
+	float:left;	
+	margin-right: 5px;
+	}
+	
+	.facebookArrowRight {
+	background-position: -101px -91px;
+	height: 9px;
+	width: 11px;
+	background-image: url("http://static.ak.fbcdn.net/rsrc.php/v1/zb/r/uxjPUN3OLVy.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	}
+	
+	.facebookPictureContainer {
+	width: 380px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	float:left;
+	}
+	
+	.facebookPicture {
+	border: 1px solid #CCCCCC;
+	margin-right: 10px;
+	float:left;
+	}
+	
+	.facebookPictureContainer a {
+	color: #3B5998;
+	cursor: pointer;
+	text-decoration: none;	
+	}
+	
+	.facebookPictureContainer a:hover {
+	text-decoration:underline;
+	}
+	
+	.facebookPicture img {
+	margin: 3px;
+	display:block;
+	}
+	
+	.facebookPicture:hover {
+	border: 1px solid #3B5998;
+	}
+	
+	.facebookPictureName {
+		float:left;	
+		width: 232px;	
+	}
+	
+	.facebookPictureName a {
+		color: #3B5998;
+    		cursor: pointer;
+    		text-decoration: none;
+		font-weight:bold;
+	}
+	
+	.facebookPictureName a:hover {
+		text-decoration:underline;
+	}
+	
+	.facebookLinkCaption {
+		float:left;	
+		width: 230px;
+		word-wrap: break-word;
+	}
+	
+	.facebookLinkCaption a {
+		color: #3B5998;
+    		cursor: pointer;
+    		text-decoration: none;
+	}
+	
+	.facebookLinkCaption a:hover {
+		text-decoration:underline;
+	}
+	
+	.facebookLinkDescription {
+		float:left;	
+		width: 230px;
+		word-wrap: break-word;
+	}
+	
+	.facebookTinyLike {
+	background-position: -12px -65px;
+	height: 9px;
+	width: 10px;
+	background-image: url("http://static.ak.fbcdn.net/rsrc.php/v1/ze/r/tgCjNDQG0qU.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	}
+	
+	.facebookExtraComment {
+	background-color: #EDEFF4;
+	border-bottom: 1px solid #E5EAF1;
+	padding: 5px 5px 4px;
+	color: #3B5998;
+	margin-bottom:2px;
+	}
+	
+	.facebookExtraComment img {
+	margin-right:5px;
+	float:left;
+	}
+	
+	.facebookExtraComment a {
+	color: #3B5998;	
+	}
+	
+	.facebookExtraComment a:hover {
+	color: #3B5998;	
+	}
+	
+	.facebookVideoThumb {
+    background: url("https://s-static.ak.facebook.com/rsrc.php/v1/zr/r/XXVvDYAks_i.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 29px;
+    margin-left: 0;
+    margin-top: 60px;
+    width: 39px;
+	}
+	
+

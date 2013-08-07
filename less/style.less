@@ -1,0 +1,129 @@
+@font-face
+{
+    font-family: bringthanoize;
+    src: url(../BRINGTHANOIZE.TTF) format("truetype");
+}
+
+.clear{
+	clear: both;
+}
+
+.brand
+{
+	font-family: bringthanoize;
+	font-size: 25px !important;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+body
+{
+	width: 1000px;
+	margin: auto;
+	background-image: url("../img/graphlight.jpg");
+}
+
+.navbar
+{
+
+}
+
+
+
+.navbar-inner {
+	box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.36);
+}
+
+.container
+{
+	width: 850px;
+	margin: auto;
+}
+
+.gear
+{
+	width: 64px;
+	height: 64px;
+	margin-right: -64px;
+	margin-bottom: -64px;
+	position: relative;
+	z-index: -1;
+	top: -90px;
+	left: -50px;
+	background-image: url("../img/gear-xl.png");
+}
+
+@keyframes rotateThis {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+} 
+.gear {
+  animation-name: rotateThis;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+@keyframes rotateThis {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+} 
+.gear {
+  animation-name: rotateThis;
+  animation-duration:7s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+.sponsors
+{
+	z-index: -1;
+	position: relative;
+	bottom: -30px;
+	left: -10px;
+}
+
+
+.sponsor
+{
+	width: 64px;
+	height: 64px;
+	background-size: 100%;
+	float: right;
+	z-index: -1;
+	margin-left: 10px;
+
+}
+
+.sponsor
+{
+	position: relative;
+	top: -20px;
+}
+
+.spacer
+{
+	height: 50px;
+}
+
+.strip
+{
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-bottom: -5px !important;
+	z-index: -9001 !important;
+}
+
+footer
+{
+	border-top: solid gray 1px;
+	margin: 30px 0px 10px 0px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+footer:after
+{
+	content: "Grady Gearbox Gangstaz 2013";
+}
