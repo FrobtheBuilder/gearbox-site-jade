@@ -11,11 +11,7 @@ html(lang='en')
     link(rel='stylesheet/less', type='text/css', href='less/bootstrap/bootstrap.less')
     style.
       body {
-        padding-top: 60px;
-      }
-      .img-polaroid {
-        width: 94%; 
-        margin-top: 30px;
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     // <link href="css/style.css" rel="stylesheet">
     link(rel='stylesheet/less', type='text/css', href='less/style.less')
@@ -72,7 +68,7 @@ html(lang='en')
     .container
       .row-fluid
         .span6
-          img.img-polaroid(src='img/team.jpg')
+          img.img-polaroid(style='width: 94%; margin-top: 30px', src='img/team.jpg')
         .span6
           h1 Welcome
           p
@@ -90,7 +86,7 @@ html(lang='en')
           a(href='first.html') Read more...
         .span4
           h2 Calendar
-          iframe(src!="https://www.google.com/calendar/embed?mode=AGENDA&showTitle=0&showPrint=0&showCalendars=0&showTz=0&height=300&wkst=1&bgcolor=%23FFFFFF&src=grady.robotics%40gmail.com&color=%23182C57&ctz=America%2FNew_York", style='border:solid 1px #777', width='100%', height='200')
+          iframe(src!="https://www.google.com/calendar/embed?mode=AGENDA&showTitle=0&showPrint=0&showCalendars=0&showTz=0&height=300&wkst=1&bgcolor=%23FFFFFF&src=grady.robotics%40gmail.com&color=%23182C57&ctz=America%2FNew_York", style=' border:solid 1px #777', width='100%', height='200')
           a(href='calendar.html') Larger...
         .span4
           h2 Sponsors
@@ -100,10 +96,8 @@ html(lang='en')
       .row-fluid
       .spacer
     footer
-    //
-      Javascript
-      ================================================== 
-    // Placed at the end of the document so the pages load faster
+
+
     script(src='js/bootstrap-transition.js')
     script(src='js/bootstrap-alert.js')
     script(src='js/bootstrap-modal.js')
