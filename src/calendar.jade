@@ -1,0 +1,49 @@
+!!! 5
+html(lang='en')
+  // NOTE: This syntax IS valid as of HTML5, and will work on all browsers
+  // ALSO: I formatted your code, please adhere to the tab per tag rule, -Evan
+  head
+    meta(charset='utf-8')
+    //if lt IE 9
+      script(src='//html5shiv.googlecode.com/svn/trunk/html5.js')
+    title Grady Gearbox Gangstaz
+    link(rel='stylesheet', href='style.css')
+  body#calendar
+    .logohead Grady Gearbox Gangstaz
+    nav.navigation
+      #hometab
+        a(href='index.html') Home
+      #abouttab
+        a(href='about.html') About Us
+      #calendartab
+        a(href='calendar.html') Calendar
+      #besttab
+        a(href='best.html') BEST
+      #firsttab
+        a(href='first.html') FIRST
+      #trainingtab
+        a(href='training.html') Training
+      #communitytab
+        a(href='community.html') Community
+      #sponsorstab
+        a(href='sponsors.html') Sponsors
+    .content
+      //if lt IE 9
+        h2
+          | To appreciate all of the features of our site, try using a newer browser like
+          a(href='http://support.google.com/chrome/bin/answer.py?hl=en&answer=95346') Google Chrome
+          | or
+          a(href='http://www.mozilla.org/en-US/firefox/new/') Mozilla Firefox
+      h2 Calendar
+      .calendar
+        iframe(src='https://www.google.com/calendar/embed?showTitle=0&showPrint=0&showCalendars=0&showTz=0&height=300&wkst=1&bgcolor=%23FFFFFF&src=grady.robotics%40gmail.com&color=%23182C57&ctz=America%2FNew_York', style=' border:solid 1px #777', width='100%', height='300')
+      p
+        | Don't have a Google calendar? Use this
+        a(href='https://www.google.com/calendar/ical/grady.robotics%40gmail.com/public/basic.ics') ICS
+        | link; it works with Microsoft Office Outlook, iPhone, and any other calendar that supports the iCalendar format.
+      //
+        			<div class="calendar">
+        				<h2>FIRST 2012 Lunch Calendar</h2>
+                        <iframe width='100%' height='300' frameborder='0' src='https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AoEEJAhkayk2dHdmYVQ2emMyNmJoM19mdWpndU41MGc&single=true&gid=0&range=A1%3AB9&output=html&widget=true'></iframe>
+                    </div>
+                
